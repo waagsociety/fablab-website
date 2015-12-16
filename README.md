@@ -20,4 +20,4 @@ Waag Society
 Kirby-Color-Picker
 <https://github.com/ian-cox/Kirby-Color-Picker>
 
-https://badge.waffle.io/<github-waagsociety>/<github-fablab-website>.png?label=Ready
+<https://badge.waffle.io/<github-waagsociety>/<github-fablab-website>.png?label=Ready>
