@@ -1,0 +1,21 @@
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #48bda6
+
+----
+
+Title: Our machines
+
+----
+
+Subtitle: 
+
+----
+
+Intro: We have some cool machines
+
+----
+
+Text: 

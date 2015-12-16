@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('../fonts/brandontext-bold-webfont.eot');
+    src: url('../fonts/brandontext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandontext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/brandontext-bold-webfont.woff') format('woff'),
+         url('../fonts/brandontext-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_textlight';
+    src: url('../fonts/brandontext-light-webfont.eot');
+    src: url('../fonts/brandontext-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandontext-light-webfont.woff2') format('woff2'),
+         url('../fonts/brandontext-light-webfont.woff') format('woff'),
+         url('../fonts/brandontext-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eb_garamondregular';
+    src: url('../fonts/ebgaramond-regular-webfont.eot');
+    src: url('../fonts/ebgaramond-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ebgaramond-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ebgaramond-regular-webfont.woff') format('woff'),
+         url('../fonts/ebgaramond-regular-webfont.ttf') format('truetype'),
+         url('../fonts/ebgaramond-regular-webfont.svg#eb_garamondregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html
+  font-size 100%
+	-webkit-font-smoothing antialiased
+	text-rendering optimizeLegibility
+	text-rendering geometricPrecision
+	font-smooth always
+	font-smoothing antialiased
+
+body
+  font-family 'brandon_textlight', sans-serif;
+  font-weight projectFontThickness
+  font-size projectFontSize
+  color darkGrey
+
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta 
+  font-family 'brandon_textbold', sans-serif
+  text-transform uppercase
+  margin 0
+
+h1, .alpha 
+  font-size 2.625em
+  line-height 1.0476190476190477
+  margin-bottom 0.5238095238095238em
+
+h2, .beta 
+  font-size 1.96875em
+  line-height 1.3968253968253967
+  margin-bottom 0.6984126984126984em
+
+h3, .gamma 
+  font-size 1.3125em
+  margin 0 0 1.5714285714285714em
+  line-height 1.5714285714285714
+
+h4, .delta 
+  font-size 1.1484375em
+  line-height 1.1972789115646258
+  margin-bottom 1.1972789115646258em
+
+h5, .epsilon 
+  font-size 0.984375em
+  line-height 1.3968253968253967
+  margin-bottom 1.3968253968253967em
+
+h6, .zeta 
+  font-size 0.875em
+  line-height 1.5714285714285714
+  margin-bottom 1.5714285714285714em
+
+p,
+blockquote 
+  font-size 1.3125em
+  margin 0 0 1.5714285714285714em
+  line-height 1.5714285714285714
+  hyphens auto
+
+dd,
+dt,
+li 
+  line-height 1.5714285714285714
+  margin 0
+
+a
+  text-decoration none
+  opacity 1
+  color defaultLinkColor
+  transition opacity 0.1s ease-out
+
+a:hover
+  opacity hoverOpacity
+
+input, select, button, textarea, .btn
+	font-size 1.3125em
+	line-height 1.5714285714285714
+
+i
+	opacity 0.5
+
+strong
+ font-weight bold

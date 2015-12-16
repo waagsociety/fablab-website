@@ -1,0 +1,68 @@
+.machine_btn
+	width 80px
+	height 80px
+	background-color white
+	position fixed
+	right 0
+	top 0
+	display block
+
+.home_btn
+	width 80px
+	height 80px
+	background-color white
+	position fixed
+	left 80px
+	top 0
+	display block
+	&:hover
+		opacity 1
+	svg
+		width 30px
+		height 30px
+		margin 25px
+		transition transform .2s ease-in-out
+
+.home_btn:hover
+	svg
+		transform scale(1.2)
+
+.main
+	display flex
+	flex-wrap wrap
+	align-content flex-end
+  section
+		padding 40px
+		flex-grow 1
+		
+.text
+	width 100%
+	padding 80px 0
+	font-size 1.35em
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	ul
+		max-width 800px
+		margin-left auto
+		margin-right auto
+		text-transform none
+	p
+		font-family georgia, serif
+		color #333
+		strong
+			font-family 'brandon_textbold', sans-serif
+			
+	p:nth-of-type(1)
+		font-family: inherit
+		color #7F6C6C
+	figure
+		margin 80px auto
+		width 80%
+	img
+		width 100%
+		

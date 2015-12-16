@@ -1,0 +1,24 @@
+button, .btn
+  color buttonTextColor
+  background-color callToColor
+  cursor pointer
+  padding buttonPadding
+  border-radius 1px
+  display inline-block
+
+.btn
+  color white !important
+  display inline-block
+  text-decoration none !important
+
+.button-bar
+  button
+    border-left 1px solid canvas
+  button:first-child
+    border-radius 4px 0 0 4px
+    border-left none
+  button:last-child
+    border-radius 0 4px 4px 0
+
+button:hover, .btn:hover
+  opacity 0.8
