@@ -1,0 +1,29 @@
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #6d54d1
+
+----
+
+Title: Big milling machine
+
+----
+
+Subtitle: Shopbot
+
+----
+
+Intro: sdsdadsadsa
+
+----
+
+Text: dssaddsasd
+
+----
+
+Machineimage: machine_logo.svg
+
+----
+
+Heroimage: shopbot.jpg

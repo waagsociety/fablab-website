@@ -8,6 +8,7 @@ Waag Society
 
 ## Website
 <http://fablab.waag.org>
+<http://waag.org>
 
 ## Kirby
 <https://github.com/getkirby/kirby>
@@ -19,5 +20,3 @@ Waag Society
 ## Plugins
 Kirby-Color-Picker
 <https://github.com/ian-cox/Kirby-Color-Picker>
-
-<https://badge.waffle.io/<github-waagsociety>/<github-fablab-website>.png?label=Ready>

@@ -13,7 +13,7 @@
 
 </head>
 <body>
-  <header class="header cf" role="banner">
+  <header class="header cf" role="banner"  style="background-image: url(/content/<?php echo $page->diruri() ?>//<?php echo html($page->heroimage()) ?>);">
     <?php snippet('menu') ?>
     <section class="headerSign">
       <h1><?php echo $page->title()->html() ?></h1>

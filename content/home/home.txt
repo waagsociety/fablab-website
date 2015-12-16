@@ -23,3 +23,7 @@ Subtitle: Today we’re open!
 ----
 
 Address: De Waag, Nieuwmarkt 4, Amsterdam
+
+----
+
+Heroimage: header_bg.jpg

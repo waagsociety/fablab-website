@@ -1,0 +1,3 @@
+[submodule "site/fields/selector"]
+	path = site/fields/selector
+	url = https://github.com/storypioneers/kirby-selector.git

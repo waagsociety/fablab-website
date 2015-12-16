@@ -2,7 +2,7 @@ Textcolor: #ffffff
 
 ----
 
-Pagecolor: #48bda6
+Pagecolor: #d15858
 
 ----
 
@@ -14,8 +14,8 @@ Subtitle:
 
 ----
 
-Intro: We have some cool machines
+Intro: dsasda
 
 ----
 
-Text: 
+Text: dassddsa

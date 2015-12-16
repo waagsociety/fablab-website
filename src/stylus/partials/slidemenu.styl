@@ -11,7 +11,7 @@
   color white
   overflow scroll
   padding 80px 50px 80px 150px
-  z-index 1
+  z-index 4
   font-size 4em
   font-family 'brandon_textbold', sans-serif
   transition transform .2s ease-in-out
@@ -69,7 +69,10 @@
       left 0
       transform rotate(0deg)
       transition .25s ease-in-out
-    
+      
+.hamburger-menu.open
+  z-index 9
+  
 .hamburger-menu span:nth-child(1) 
   top 0px
   transform-origin left center

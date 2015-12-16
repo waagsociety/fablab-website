@@ -1,19 +1,24 @@
-function initEventHandlers(){  
-  var hamburgerBtn = document.querySelector(".hamburger-menu");
-  hamburgerBtn.addEventListener("click", toggleMenu);  
-};
+console.log('slidemenu loaded');
 
-function toggleMenu(){
-  var slideMenu = document.querySelector(".slide-menu"),      
-      body = document.getElementsByTagName("BODY")[0];
+function initEventHandlers() {
+	console.log('initing event handlers');
+	/* 
+		Document query selector doesn't return an array. Use array.prototype method for each. 
+		Select every data-openselector and bind an evenlistener to it.
+	*/
+  Array.prototype.forEach.call( document.querySelectorAll('[data-openselector]'), bindToggleOpen );
+}
 
-  this.classList.toggle('open');
-  slideMenu.classList.toggle('open');
-  body.classList.toggle('noScroll');
-};
+function bindToggleOpen( element ) {
+	element.addEventListener( 'click', toggleOpen );
+}
 
-window.onresize=function(){
-  toggleMenu();
+function toggleOpen(){
+	var openElement = document.querySelector( this.dataset.openselector );
+
+	this.classList.toggle('open');
+	openElement.classList.toggle('open');
+	document.body.classList.toggle('noScroll');
 }
 
 document.addEventListener("DOMContentLoaded",  initEventHandlers);

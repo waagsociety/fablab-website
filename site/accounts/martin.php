@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - newsletter
-  - our-machines
-  - fab-academy
-  - contact
+  - open-days
   - i-want-to-make
+  - our-machines/big-milling-machine
+  - home
+  - our-machines

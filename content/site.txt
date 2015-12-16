@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: Fablab Amsterdam
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Martin Risseeuw
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Fablab Amsterdam website
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Fablab,Amsterdam,Maker
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: 

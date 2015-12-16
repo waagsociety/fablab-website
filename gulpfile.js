@@ -31,7 +31,8 @@ gulp.task('jshint', function() {
 
 gulp.task('watch', function () {
    gulp.watch('src/stylus/**/*.styl', ['css']);
+   gulp.watch('src/scripts/*.js', ['js']);
 });
 
-gulp.task('default', ['css', 'js']);
+gulp.task('default', ['css', 'jshint', 'js']);
 gulp.task('start', ['watch']);

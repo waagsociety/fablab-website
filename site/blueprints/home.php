@@ -3,6 +3,12 @@
 title: Home
 pages: false
 fields:
+  heroimage:
+    label: Hero image
+    type:  selector
+    mode:  single
+    types:
+        - image
   title:
     label: Menu title
     type:  text
@@ -12,7 +18,3 @@ fields:
   address:
     label: Fablab address
     type:  text 	
-  text:
-    label: Text
-    type:  textarea
-    size:  large

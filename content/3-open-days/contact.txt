@@ -1,4 +1,4 @@
-Title: Opendays
+Title: I want to visit
 
 ----
 
@@ -29,3 +29,11 @@ Pagecolor: #50e3c2
 ----
 
 Intro: We have opendays every thursday. During the openday machines are available for visitors. Do you have a great idea that needs some prototyping? Come visit the openday.
+
+----
+
+Heroimage: braun-recorder-rams.jpg
+
+----
+
+Subtitle: Our open days are on Saturday's

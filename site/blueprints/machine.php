@@ -1,11 +1,17 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
-pages: true
+title: Machine
+pages: false
 files: true
 fields:
   heroimage:
     label: Hero image
+    type:  selector
+    mode:  single
+    types:
+        - image
+  machineimage:
+    label: Machine image
     type:  selector
     mode:  single
     types:

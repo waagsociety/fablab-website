@@ -1,15 +1,10 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
-pages: true
+title: Machines
+pages:
+  template: machine
 files: true
 fields:
-  heroimage:
-    label: Hero image
-    type:  selector
-    mode:  single
-    types:
-        - image
   textcolor:
     label: Textcolor for the homepage
     type:  color

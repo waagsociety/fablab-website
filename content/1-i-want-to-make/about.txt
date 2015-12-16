@@ -9,7 +9,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 ## Lorem Ipsum
 In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
 
-(image: about.jpg)
+(image: make.jpg)
 
 ### Lorem Ipsum
 In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
@@ -23,8 +23,16 @@ Intro: Fablab Amsterdam is closed during the Xmas holiday season between 21 Dece
 
 ----
 
-Textcolor: #FFFFFF
+Textcolor: #ffffff
 
 ----
 
-Pagecolor: #8BACF2
+Pagecolor: #8bacf2
+
+----
+
+Subtitle: 
+
+----
+
+Heroimage: make.jpg
