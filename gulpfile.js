@@ -16,7 +16,7 @@ gulp.task('css', function () {
 
 gulp.task('js', function() {
   gulp.src([
-    'src/scripts/slideMenu.js'
+    'src/scripts/*.js'
   ])
     // concat pulls all our files together before minifying them
     .pipe( concat('output.min.js') )

@@ -15,7 +15,7 @@ function bindToggleOpen( element ) {
 
 function toggleOpen(){
 	var openElement = document.querySelector( this.dataset.openselector );
-
+	
 	this.classList.toggle('open');
 	openElement.classList.toggle('open');
 	document.body.classList.toggle('noScroll');

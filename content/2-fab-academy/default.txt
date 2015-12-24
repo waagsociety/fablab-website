@@ -58,3 +58,11 @@ If you rate your proficiency in them between Low and Medium, the course should b
 ----
 
 Subtitle: Fab Academy 2016
+
+----
+
+Heroimage: 
+
+----
+
+Layout: three-col

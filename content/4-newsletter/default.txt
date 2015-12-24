@@ -19,3 +19,11 @@ Intro:
 ----
 
 Text: 
+
+----
+
+Heroimage: 
+
+----
+
+Layout: three-col

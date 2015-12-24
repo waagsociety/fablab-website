@@ -37,3 +37,7 @@ Heroimage: braun-recorder-rams.jpg
 ----
 
 Subtitle: Our open days are on Saturday's
+
+----
+
+Layout: three-col
