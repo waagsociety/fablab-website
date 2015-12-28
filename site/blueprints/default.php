@@ -19,6 +19,9 @@ fields:
   title:
     label: Title
     type:  text
+  videolink:
+    label: Link to video
+    type: text
   subtitle:
     label: Subtitle
     type:  text

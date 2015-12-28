@@ -1,4 +1,9 @@
-console.log('slidemenu loaded');
+
+var debug = true;
+
+if(debug){
+	console.log('slidemenu loaded');
+}
 
 function initEventHandlers() {
 	console.log('initing event handlers');

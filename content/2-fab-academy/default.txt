@@ -61,8 +61,12 @@ Subtitle: Fab Academy 2016
 
 ----
 
-Heroimage: 
+Heroimage: academy.jpg
 
 ----
 
 Layout: three-col
+
+----
+
+Videolink: 

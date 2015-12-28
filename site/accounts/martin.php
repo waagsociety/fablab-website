@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - fab-academy
   - openthings
   - newsletter
   - open-days
-  - fab-academy
   - i-want-to-make

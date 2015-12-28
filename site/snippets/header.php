@@ -28,4 +28,13 @@
       <h2><?php echo $page->subtitle()->html() ?></h2>
       <p><?php echo $page->address()->html() ?></p>
     </section>
+
+    <?php if($page->videolink()->isNotEmpty()): ?>
+      <div class="covervid-wrapper">
+        <video class="covervid-video" autoplay loop muted preload>
+            <source src="<?php echo $page->videolink()->text() ?>">
+        </video>
+      </div>
+    <?php endif ?>
+    
   </header>

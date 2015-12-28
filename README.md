@@ -20,3 +20,9 @@ Waag Society
 ## Plugins
 Kirby-Color-Picker
 <https://github.com/ian-cox/Kirby-Color-Picker>
+
+## Instructions
+npm install
+bower install enquire
+gulp
+gulp start
