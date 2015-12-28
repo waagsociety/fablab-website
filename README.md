@@ -22,7 +22,7 @@ Kirby-Color-Picker
 <https://github.com/ian-cox/Kirby-Color-Picker>
 
 ## Instructions
-npm install
-bower install enquire
-gulp
+npm install <br />
+bower install enquire <br />
+gulp <br />
 gulp start
