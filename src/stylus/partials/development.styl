@@ -39,10 +39,14 @@
 	display flex
 	flex-wrap wrap
 	align-content flex-end
-  section
+	.item
 		padding 40px
 		flex-grow 1
-		
+		transition .2s ease-in-out;
+		&:hover
+			background-color projectColor !important
+			z-index 2
+			color white !important
 .text
 	width 100%
 	padding 80px 0
@@ -79,6 +83,12 @@
 	figure
 		margin 80px auto
 		width 80%
+		figcaption
+			margin 2em
+			color projectColor
+			border 4px solid projectColor
+			display inline-block
+			padding 2em
 	img
 		width 100%
 	figure.full
@@ -126,4 +136,42 @@
 .sitemap
 	width 100%
 	background-color #F0F0F0;
-	padding 50px
+	padding 50px 150px
+	.inner
+		margin auto
+		font-size .875em
+		h2
+			text-transform none
+			margin-bottom .2em
+
+.viewArt
+	font-size 3em
+	margin-bottom 0
+	text-align right
+		
+footer
+	padding 30px 150px
+	float left
+	width 100%
+	border-top 1px solid white
+	z-index 3
+	position relative
+	p
+		margin 0
+		opacity .5
+		font-size 1em
+	svg
+		stroke none
+	p
+		position absolute
+		right 150px
+		top 50%;
+		transform translateY(-50%);
+	svg
+		max-width 150px
+		float left
+		opacity .6
+	.st0
+		fill black
+	.st1
+		fill white

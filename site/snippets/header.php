@@ -25,7 +25,7 @@
         data--250-top="opacity: 0; transform: translate(-50%, -0%) scale(.5);"
         data-anchor-target="#projectHeader">
       <h1><?php echo $page->title()->html() ?></h1>
-      <h2><?php echo $page->subtitle()->html() ?></h2>
+      <h2 id="typingText" data-text="<?php echo $page->subtitle()->html() ?>"></h2>
       <p><?php echo $page->address()->html() ?></p>
     </section>
 

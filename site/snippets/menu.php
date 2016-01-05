@@ -28,7 +28,7 @@
 
 <nav class="machine-menu closed">
   <ul class="machine-grid">
-    <?php foreach($pages->find('our-machines')->children() as $p): ?>
+    <?php foreach($pages->find('our-machines')->children()->visible() as $p): ?>
       <li class="three-col left machineThumb" style="background-color: <?php echo html($p->pagecolor()) ?>;">
         <a href="<?php echo $p->url() ?>">
           <figure>

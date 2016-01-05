@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - our-machines/laser-cutter
+  - our-machines/shopbot
   - fab-academy
-  - openthings
-  - newsletter
-  - open-days
   - i-want-to-make
+  - our-machines/3d-printer

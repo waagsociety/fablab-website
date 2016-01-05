@@ -1,0 +1,43 @@
+Heroimage: ultimaker.jpg
+
+----
+
+Machineimage: printer.svg
+
+----
+
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #665fed
+
+----
+
+Title: 3D Printers
+
+----
+
+Subtitle: The Ultimaker is a low cost DIY 3d printer using FFF technology
+
+----
+
+Intro: The Ultimaker is a low cost DIY 3d printer using FFF technology (Fused Filament Fabrication) with thermoplastic extrusion. It's a great tool to make fast 3D prototypes in various colors.
+
+----
+
+Text: 
+
+The Ultimaker is a low cost DIY 3d printer using FFF technology (Fused Filament Fabrication) with thermoplastic extrusion. It's a great tool to make fast 3D prototypes in various colours.
+
+- Working area: 210 x 210mm | 8.27" x 8.27"
+- Maximum Part Size: 210 x 210 x 220mm | 8.27" x 8.27" x 8.67"
+- Software used: Cura
+- Acceptable file formats: STL
+- Mechanical Resolution: 0.02 mm
+- Position Accuracy: +- < 0.05 mm
+- Build materials
+- PLA and ABS (supported)
+- PCL, HDPE, PP, PMMA (known to work, YMMV)
+
+(youtube: https://www.youtube.com/watch?v=W0ue01ozgA0)

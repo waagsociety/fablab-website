@@ -1,12 +1,10 @@
 
-var debug = true;
-
-if(debug){
-	console.log('slidemenu loaded');
-}
+var debug = false;
 
 function initEventHandlers() {
-	console.log('initing event handlers');
+	if(debug){
+		console.log('initing event handlers');
+	}
 	/* 
 		Document query selector doesn't return an array. Use array.prototype method for each. 
 		Select every data-openselector and bind an evenlistener to it.
@@ -25,5 +23,3 @@ function toggleOpen(){
 	openElement.classList.toggle('open');
 	document.body.classList.toggle('noScroll');
 }
-
-document.addEventListener("DOMContentLoaded",  initEventHandlers);

@@ -36,6 +36,8 @@ The Fab Academy is a fast paced, hands-on learning experience where students pla
 - molding and casting
 - 3D scanning and printing
  
+(image: academy2.jpg caption: Fab Academy class of 2013)
+
 **How It Works**
 Fab Academy is a distributed educational model providing a unique educational experience.
 

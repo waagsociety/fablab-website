@@ -22,6 +22,7 @@ fields:
   videolink:
     label: Link to video
     type: text
+    icon: file-video-o
   subtitle:
     label: Subtitle
     type:  text
