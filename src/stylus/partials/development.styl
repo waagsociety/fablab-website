@@ -1,6 +1,6 @@
 .machine_btn
-	width 80px
-	height 80px
+	width 60px
+	height 60px
 	background-color #fc7d7d
 	position fixed
 	right 0
@@ -10,25 +10,25 @@
 	transition transform .2s ease-in-out
 	z-index 9
 	svg
-		width 60px
-		height 52px
-		margin 14px 10px
+		width 38px
+		height 39px
+		margin 10px 8px
 
 .home_btn
-	width 80px
-	height 80px
+	width 60px
+	height 60px
 	background-color white
 	position fixed
-	left 80px
+	left 60px
 	top 0
 	z-index 2
 	display block
 	&:hover
 		opacity 1
 	svg
-		width 30px
-		height 30px
-		margin 25px
+		width 23px
+		height 23px
+		margin 19px
 		transition transform .2s ease-in-out
 	
 .home_btn:hover
@@ -175,3 +175,53 @@ footer
 		fill black
 	.st1
 		fill white
+		
+.projects
+	width 100%
+	float left
+	.grid-sizer
+		width 25%
+		height 35vh
+	.projectItem
+		position relative
+		width 25%
+		height 35vh
+		opacity 1
+		list-style none
+		color white		
+		background-size cover
+		background-position center center
+		h1
+			font-size 1.6em
+		&:nth-of-type(3n + 1)
+			width 50%
+			height 60vh
+		.btn-2
+			margin-right 5px
+			font-size .875em
+			border 3px solid white !important
+		div
+			width 100%
+			height 100%
+			opacity 0
+			padding 40px
+			transition opacity .2s ease-in-out
+			font-size .875em
+			background rgba(projectColor, .9)
+			.btn
+				margin-bottom 20px
+			&:hover
+				opacity 1
+				
+
+.sectionHeader
+	text-align center
+	padding 8% 10%
+	width 100%
+	h1
+		text-transform none
+		color #fc7d7d
+		-webkit-hyphens none
+		-moz-hyphens none
+		-ms-hyphens none
+		hyphens none

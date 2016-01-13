@@ -18,13 +18,28 @@ gulp.task('js', function() {
   gulp.src([
     'bower_components/enquire/dist/enquire.js',
     'src/scripts/modernizr_touch_detect.min.js',
+    'bower_components/fetch/fetch.js',
+    'bower_components/es6-promise/promise.min.js',
     'src/scripts/slideMenu.js',
     'src/scripts/scrollEffect.js',
-    'src/scripts/typingText.js',
+//  'src/scripts/typingText.js',
+    'src/scripts/slider.js',
+    'src/scripts/loadMasonry.js',
     'src/scripts/init.js'
   ])
     // concat pulls all our files together before minifying them
     .pipe( concat('output.min.js') )
+    .pipe(gulp.dest('assets/js'))
+});
+
+gulp.task('headerjs', function() {
+  gulp.src([
+    'bower_components/fetch/fetch.js',
+    'bower_components/es6-promise/promise.min.js',
+    'bower_components/masonry/dist/masonry.pkgd.min.js'
+  ])
+    // concat pulls all our files together before minifying them
+    .pipe( concat('main.min.js'))
     .pipe(gulp.dest('assets/js'))
 });
 
@@ -39,5 +54,5 @@ gulp.task('watch', function () {
    gulp.watch('src/scripts/*.js', ['js']);
 });
 
-gulp.task('default', ['css', 'jshint', 'js']);
+gulp.task('default', ['css', 'jshint', 'js', 'headerjs']);
 gulp.task('start', ['watch']);

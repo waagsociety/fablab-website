@@ -1,0 +1,49 @@
+Heroimage: 
+
+----
+
+Icon: 
+
+----
+
+Api: "/assets/json/projects.json"
+
+----
+
+Title: Projects
+
+----
+
+Videolink: 
+
+----
+
+Subtitle: 
+
+----
+
+Intro: The projects below were made at Fablab Amsterdam. Browse through the documentation and you may find similar processes of digital production that you had in mind for your idea.
+
+----
+
+Text: 
+
+----
+
+Layout: two-col
+
+----
+
+Elementheight: full-height
+
+----
+
+Border: 
+
+----
+
+Textcolor: #3b3b3b
+
+----
+
+Pagecolor: #ffff00

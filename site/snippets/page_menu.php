@@ -5,7 +5,7 @@
     <span></span>
   </div>
 </div>
-<a href="/" class="home_btn">
+<a href="<?php echo url(); ?>" class="home_btn">
   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
   <rect x="-5.141" y="16.858" transform="matrix(0.7071 0.7071 -0.7071 0.7071 20.0011 -8.2841)" fill="#414042" width="50.282" height="6.284"/>

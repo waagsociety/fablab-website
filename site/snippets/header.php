@@ -10,16 +10,19 @@
   <link href="http://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet" type="text/css">
   
   <?php echo css('assets/css/main.css') ?>
+  <?php echo js('assets/js/main.min.js') ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
 
 </head>
 <body>
+  <?php snippet('menu') ?>
+  <?php if($page->heroimage()->isNotEmpty()): ?>
+
   <header id="projectHeader" class="header cf" role="banner"  
   data-center="background-size:  110% auto;"
   data-top-bottom="background-size:  100% auto;"
   data-anchor-target="#projectHeader"
-  style="background-image: url(/content/<?php echo $page->diruri() ?>//<?php echo html($page->heroimage()) ?>);">
-    <?php snippet('menu') ?>
+  style="background-image: url(<?php echo url(); ?>/content/<?php echo $page->diruri() ?>/<?php echo html($page->heroimage()) ?>);">
     <section class="headerSign"
     data-top="opacity: 1; transform: translate(-50%, -50%) scale(1);"
         data--250-top="opacity: 0; transform: translate(-50%, -0%) scale(.5);"
@@ -38,3 +41,5 @@
     <?php endif ?>
     
   </header>
+
+  <?php endif ?>

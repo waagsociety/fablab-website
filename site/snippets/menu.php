@@ -35,7 +35,7 @@
             <?php
               $file = $page->machineimage()->toFile();
             ?>
-            <img src="/content/<?php echo $p->diruri() ?>/<?php echo html($p->machineimage()) ?>">
+            <img src="<?php echo url(); ?>/content/<?php echo $p->diruri() ?>/<?php echo html($p->machineimage()) ?>">
           </figure>
         </a>
         <a href="<?php echo $p->url() ?>" style="color: <?php echo html($p->textcolor()) ?>;">

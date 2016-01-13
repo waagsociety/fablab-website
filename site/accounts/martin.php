@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - projects
+  - i-want-to-make
   - our-machines/laser-cutter
   - our-machines/shopbot
   - fab-academy
-  - i-want-to-make
-  - our-machines/3d-printer
