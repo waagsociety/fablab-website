@@ -6,7 +6,7 @@ Icon:
 
 ----
 
-Api: "/assets/json/projects.json"
+Api: "http://localhost:8080/api/projects/search?title=&difficulty=upToGenius&state=onlyMature"
 
 ----
 

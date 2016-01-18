@@ -1,0 +1,25 @@
+{
+  "name": "Fablab",
+  "description": "Fablab website",
+  "main": "index.js",
+  "authors": [
+    "Martin Risseeuw"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Fablab"
+  ],
+  "homepage": "https://github.com/waagsociety/fablab-website",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "enquire": "~2.1.2"
+  }
+}

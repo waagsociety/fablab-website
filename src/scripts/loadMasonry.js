@@ -8,7 +8,7 @@ function loadMasonry(){
 	// element argument can be a selector string
 	//   for an individual element
 	var msnry = new Masonry( '.projects', {
-	  	columnWidth: '.grid-sizer',
+	  columnWidth: '.grid-sizer',
 		itemSelector: '.projectItem',
 		percentPosition: true
 	});

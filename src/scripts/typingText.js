@@ -6,7 +6,7 @@ function frameLooper() {
   if(myArray.length > 0) {
     document.getElementById("typingText").innerHTML += myArray.shift();
   } else {
-    clearTimeout(loopTimer); 
+    clearTimeout(loopTimer);
                 return false;
   }
   loopTimer = setTimeout('frameLooper()',100);
