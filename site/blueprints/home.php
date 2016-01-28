@@ -14,7 +14,11 @@ fields:
     type:  text
   subtitle:
     label: Sub title
-    type:  text  
+    type:  text
   address:
     label: Fablab address
-    type:  text 	
+    type:  text
+  videolink:
+    label: Link to video
+    type: text
+    icon: file-video-o

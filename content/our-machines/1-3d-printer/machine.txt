@@ -41,3 +41,7 @@ The Ultimaker is a low cost DIY 3d printer using FFF technology (Fused Filament 
 - PCL, HDPE, PP, PMMA (known to work, YMMV)
 
 (youtube: https://www.youtube.com/watch?v=W0ue01ozgA0)
+
+----
+
+Videolink: https://player.vimeo.com/external/153100776.hd.mp4?s=67020bbc9e47bcd432ed49b0370a194f69071f60&profile_id=113

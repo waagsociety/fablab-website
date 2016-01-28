@@ -22,7 +22,7 @@ gulp.task('js', function() {
     'bower_components/es6-promise/promise.min.js',
     'src/scripts/slideMenu.js',
     'src/scripts/scrollEffect.js',
-//  'src/scripts/typingText.js',
+    'src/scripts/typingText.js',
     'src/scripts/slider.js',
     'src/scripts/loadMasonry.js',
     'src/scripts/init.js'

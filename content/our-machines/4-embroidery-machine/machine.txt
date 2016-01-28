@@ -1,0 +1,33 @@
+Heroimage: poster.jpg
+
+----
+
+Videolink: https://player.vimeo.com/external/153100782.hd.mp4?s=5710d46cc5f52a4e710b291be98bc23638707b91&profile_id=113
+
+----
+
+Machineimage: 
+
+----
+
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #65c2bf
+
+----
+
+Title: Embroidery machine
+
+----
+
+Subtitle: You can embroider: all sorts of fabric
+
+----
+
+Intro: This entry level 1 needle digital embroidery machine can embroider images and designs in many different strategies, and with as many colors as you wish.
+
+----
+
+Text: This entry level 1 needle digital embroidery machine can embroider images and designs in many different strategies, and with as many colors as you wish. You can also embroider circuits using conductible threads. A little experimentation with the software and the machine itself is necessary for good results.

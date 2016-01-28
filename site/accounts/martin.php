@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - our-machines/embroidery-machine
   - projects
-  - i-want-to-make
-  - our-machines/laser-cutter
+  - home
   - our-machines/shopbot
-  - fab-academy
+  - our-machines/3d-printer

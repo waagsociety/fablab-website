@@ -10,6 +10,10 @@ fields:
     mode:  single
     types:
         - image
+  videolink:
+    label: Link to video
+    type: text
+    icon: file-video-o
   machineimage:
     label: Machine image
     type:  selector

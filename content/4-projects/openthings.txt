@@ -6,7 +6,7 @@ Icon:
 
 ----
 
-Api: "http://localhost:8080/api/projects/search?title=&difficulty=upToGenius&state=onlyMature"
+Api: "https://www.openthings.wiki/api/projects/search?tag=46,47&nr_of_items=6"
 
 ----
 

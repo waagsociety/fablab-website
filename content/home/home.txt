@@ -26,4 +26,8 @@ Address: De Waag, Nieuwmarkt 4, Amsterdam
 
 ----
 
-Heroimage: header_bg.jpg
+Heroimage: home_poster.jpg
+
+----
+
+Videolink: https://player.vimeo.com/external/153100779.hd.mp4?s=4b40becdd14dcee45ba6f36275e3bad83df056b3&profile_id=119

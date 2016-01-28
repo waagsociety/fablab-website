@@ -8,7 +8,7 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
   <link href="http://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet" type="text/css">
-  
+
   <?php echo css('assets/css/main.css') ?>
   <?php echo js('assets/js/main.min.js') ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
@@ -18,7 +18,7 @@
   <?php snippet('menu') ?>
   <?php if($page->heroimage()->isNotEmpty()): ?>
 
-  <header id="projectHeader" class="header cf" role="banner"  
+  <header id="projectHeader" class="header cf" role="banner"
   data-center="background-size:  110% auto;"
   data-top-bottom="background-size:  100% auto;"
   data-anchor-target="#projectHeader"
@@ -34,12 +34,12 @@
 
     <?php if($page->videolink()->isNotEmpty()): ?>
       <div class="covervid-wrapper">
-        <video class="covervid-video" autoplay loop muted preload>
+        <video class="covervid-video" poster="<?php echo url(); ?>/content/<?php echo $page->diruri() ?>/<?php echo html($page->heroimage()) ?>" autoplay loop muted preload>
             <source src="<?php echo $page->videolink()->text() ?>">
         </video>
       </div>
     <?php endif ?>
-    
+
   </header>
 
   <?php endif ?>

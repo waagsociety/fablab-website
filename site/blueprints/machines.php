@@ -11,6 +11,11 @@ fields:
   pagecolor:
     label: Section color for the homepage
     type:  color
+
+  videolink:
+    label: Link to video
+    type: text
+    icon: file-video-o
   title:
     label: Title
     type:  text
