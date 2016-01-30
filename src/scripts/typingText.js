@@ -1,7 +1,8 @@
-var typingText = document.getElementById('typingText'),
-	myArray = typingText.dataset.text.split(""),
-	loopTimer;
-
+var typingText = document.getElementById('typingText');
+if (typingText !=null) {
+var myArray = typingText.dataset.text.split(""),
+			loopTimer;
+}
 function frameLooper() {
   if(myArray.length > 0) {
     document.getElementById("typingText").innerHTML += myArray.shift();

@@ -11,6 +11,10 @@
 
     <?php snippet('projects') ?>
 
+    <script>
+      loadMasonry();
+    </script>
+
   </main>
 
 <?php snippet('footer') ?>

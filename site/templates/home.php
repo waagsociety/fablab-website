@@ -10,5 +10,4 @@
     </a>
    <?php endforeach ?>
   </main>
-
 <?php snippet('footer') ?>

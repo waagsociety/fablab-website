@@ -1,7 +1,10 @@
 function init(){
 	enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false);
 	initEventHandlers();
-	frameLooper();
+
+	if (typingText !=null) {
+		frameLooper();
+	}
 	loadWayPoint();
 }
 
@@ -16,7 +19,8 @@ function loadWayPoint(){
 	    		hamburger_btn.classList.toggle("black");
 					machine_btn.classList.toggle("black");
 					home_btn.classList.toggle("black");
-	  		}
+	  		},
+  			offset: 100
 			});
 };
 
