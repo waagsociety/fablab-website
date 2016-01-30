@@ -18,8 +18,6 @@ gulp.task('js', function() {
   gulp.src([
     'bower_components/enquire/dist/enquire.js',
     'src/scripts/modernizr_touch_detect.min.js',
-    'bower_components/fetch/fetch.js',
-    'bower_components/es6-promise/promise.min.js',
     'src/scripts/slideMenu.js',
     'src/scripts/scrollEffect.js',
     'src/scripts/typingText.js',
@@ -36,7 +34,8 @@ gulp.task('headerjs', function() {
   gulp.src([
     'bower_components/fetch/fetch.js',
     'bower_components/es6-promise/promise.min.js',
-    'bower_components/masonry/dist/masonry.pkgd.min.js'
+    'bower_components/masonry/dist/masonry.pkgd.min.js',
+    'bower_components/waypoints/lib/noframework.waypoints.min.js'
   ])
     // concat pulls all our files together before minifying them
     .pipe( concat('main.min.js'))

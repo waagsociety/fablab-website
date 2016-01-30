@@ -30,7 +30,7 @@ Text:
 
 ----
 
-Layout: two-col
+Layout: four-col
 
 ----
 
@@ -46,4 +46,4 @@ Textcolor: #3b3b3b
 
 ----
 
-Pagecolor: #ffff00
+Pagecolor: #ededed

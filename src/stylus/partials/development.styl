@@ -1,10 +1,9 @@
 .machine_btn
 	width 60px
 	height 60px
-	background-color #fc7d7d
 	position fixed
-	right 0
-	top 0
+	right 20px
+	top 20px
 	display block
 	cursor pointer
 	transition transform .2s ease-in-out
@@ -13,23 +12,32 @@
 		width 38px
 		height 39px
 		margin 10px 8px
-
+.machine_btn.black
+	svg
+		path
+			fill black
 .home_btn
 	width 60px
 	height 60px
-	background-color white
 	position fixed
 	left 60px
-	top 0
+	top 20px
 	z-index 2
 	display block
+	transition .25s ease-in-out
 	&:hover
 		opacity 1
 	svg
 		width 23px
 		height 23px
 		margin 19px
-		transition transform .2s ease-in-out
+		rect
+			fill white
+
+.home_btn.black
+	svg
+		rect
+			fill black
 
 .home_btn:hover
 	svg
@@ -44,8 +52,7 @@
 		flex-grow 1
 		transition .2s ease-in-out;
 		&:hover
-			background-color projectColor !important
-			z-index 2
+			background black !important
 			color white !important
 .text
 	width 100%
@@ -226,9 +233,9 @@ footer
 		-ms-hyphens none
 		hyphens none
 
-#projectHeader:before
+#projectHeader:after
 	position absolute
 	width 100%
 	content ""
 	height 100%
-	background rgba(0, 0, 0, .2)
+	background rgba(0, 0, 0, .7)
