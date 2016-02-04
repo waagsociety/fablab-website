@@ -5,15 +5,16 @@
   left 0
   top 0
   height 100vh
-  width 100vw
-  background #36BFBC
+  max-width 50vw
+  background rgba(#36BFBC, .97)
+  box-shadow 5px 5px 8px rgba(#000, .2)
   color white
   overflow scroll
-  padding 80px 50px 80px 150px
+  padding 80px 50px 80px 80px
   z-index 4
-  font-size 3.3em
-  font-family 'brandon_textbold', sans-serif
-  transition transform .2s ease-in-out
+  font-size 3em
+  font-family 'BalanceComp-bold', 'brandon_textbold', sans-serif
+  transition transform .15s ease-out
   transform-origin top left
   li
     a
@@ -28,9 +29,9 @@
         background #fc7d7d;
 
 .slide-menu.closed
-  transform scale(0)
+  transform translateX(-100%)
 .slide-menu.open
-  transform scale(1)
+  transform translateX(0%)
 
 .slide-menu.top
   width 100vw

@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - projects
   - home
   - i-want-to-make
-  - projects
   - our-machines/embroidery-machine
   - our-machines/shopbot

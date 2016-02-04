@@ -10,7 +10,7 @@ Api: "https://www.openthings.wiki/api/projects/search?tag=46,47&nr_of_items=6"
 
 ----
 
-Title: Projects
+Title: Share and pay less
 
 ----
 
@@ -30,7 +30,7 @@ Text:
 
 ----
 
-Layout: four-col
+Layout: three-col
 
 ----
 
@@ -46,4 +46,4 @@ Textcolor: #3b3b3b
 
 ----
 
-Pagecolor: #ededed
+Pagecolor: #ffff0f
