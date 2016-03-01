@@ -20,38 +20,21 @@
 			stroke-width 3
 		&:hover
 			transform scale(1.1)
-	.logo_bar
-		position absolute
-		bottom 50px
-		right 50px
-		opacity .8
-		z-index 2
-		.waag_header_logo
-			width 70px
-			height 70px
-			position absolute
-			cursor pointer
-			right 0
-			bottom 10px
-			z-index 2
-			transition .2s ease-out
+
+			a
+				position absolute
+				width 100%
+				height 100%
+				svg
+					width 100%
+				path,
+				.st0
+					fill white
+		li:nth-of-type(1)
 			&:hover
-				transform scale(1.1)
-				.hover_bar
-					opacity 1
-		.openthings_header_logo
-			width 90px
-			height 90px
-			position absolute
-			cursor pointer
-			right 80px
-			bottom 0
-			z-index 2
-			transition .2s ease-out
-			&:hover
-				transform scale(1.1)
-			path
-				fill white
+				opacity .5
+				transform scale(1)
+
 	.logo_hover
 		position absolute
 		height 100%
@@ -93,7 +76,36 @@
 			margin-bottom .1em
 			top -.3em
 			font-size 1em
-			text-transform uppercase
 		p
 			opacity .8
 			margin-bottom .1em
+
+
+
+.social_bar
+	z-index 2
+	li
+		display inline-block
+		float left
+		width 20px
+		height 30px
+		margin-left 24px
+		transition .2s ease-in-out
+		opacity .8
+		&:hover
+			opacity 1
+			transform scale(1.2)
+		a
+			position absolute
+			width 100%
+			height 100%
+			padding 0 !important
+			svg
+				width 100%
+			path,
+			.st0
+				fill white
+	li:nth-of-type(1)
+		&:hover
+			opacity 1
+			transform scale(1.2)

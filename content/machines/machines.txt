@@ -1,0 +1,33 @@
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #7a7a7a
+
+----
+
+Title: Book a machine
+
+----
+
+Subtitle: 
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+----
+
+Videolink: https://player.vimeo.com/external/153100779.hd.mp4?s=4b40becdd14dcee45ba6f36275e3bad83df056b3&profile_id=119
+
+----
+
+Heroimage: home_poster.jpg
+
+----
+
+Layout: four-col

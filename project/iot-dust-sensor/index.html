@@ -1,0 +1,159 @@
+<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> </head><body><div id="sidebar-left">
+        
+    <div class="type">
+    	<a href="/projects">projects</a>
+      <img alt="project-view" style="padding-right:10px; padding-left:10px;" src="../arrow_proj.gif">
+    </div>
+    <div class="title"><a href="/project/iot-dust-sensor">IoT Dust Sensor</a></div>
+  	<div class="nav"></div>
+<div class="panel-pane pane-views-panes pane-projects-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-projects view-id-projects view-display-id-panel_pane_1 image-display-wrapper view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-fid">
+                <span class="field-content"><img src="./cache/esp8266dust.jpg" alt="" title="" width="800" height="525" class="imagecache imagecache-fablab_projects_image_800x525 imagecache-default imagecache-fablab_projects_image_800x525_default"></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-views-panes pane-documentation-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-documentation view-id-documentation view-display-id-panel_pane_1 author view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <img src="user_pic_default.jpg" alt="womeijer's picture" title="womeijer's picture">
+</div></div>
+  </div>
+  
+  <div class="views-field-name">
+          <label class="views-label-name">
+        Created by:
+      </label>
+                <span class="field-content">womeijer</span>
+  </div>
+  
+  <div class="views-field-created">
+          <label class="views-label-created">
+        Submitted on:
+      </label>
+                <span class="field-content">Wed, 12/02/2015</span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-node-body">
+  
+  
+  
+  <div class="pane-content">
+    <p><img src="esp8266dust_-_Copy.jpg" width="500" height="450"></p>
+<p>In this fast, work a day, internet connected world, we can't stop and smell the roses. So I've done the next (next next next) best thing and hooked up a dust sensor to the internet!</p>
+<p>(just use, push_A0_to_dweet.ino if you want to push data from any analog sensor).</p>
+<p><strong>Posting to the Internet</strong><br>There are many, many different ways to put data on the cloud (and many companies that deploy those ways). In this case we are going to use dweet.io which let's you push data to a device. [note, you can pay to lock a device down, but if you don't anyone can push data to a the same name, so choose a unique one!]</p>
+<p>We're also going to use an ESP8266 (on a <a href="http://www.seeedstudio.com/depot/NodeMCU-v2-Lua-based-ESP8266-development-kit-p-2415.html" target="_blank">nodeMCU</a>) running the <a href="https://github.com/esp8266/Arduino" target="_blank">Arduino firmware</a>, so this example is written in C.</p>
+<p><strong>The Code<br></strong>The first part of our code says we're using the ESP8266 wifi library and we define our constants and variables</p>
+<p><code> #include const char* ssid = "SSID";<br> const char* password = "PASSWORD";</code></p>
+<p> const char* host = "dweet.io"; // address of the host service (dweet.io in this case)<br> const char* dweetName ="DEVICE_NAME"; //name of the dweet device<br> int dustPin=A0; int ledPower=D2; int delayTime=280; int delayTime2=40; float offTime=9680; <br> long lastConnectionTime = 0; // last time you connected to the server, in milliseconds boolean lastConnected = false; // state of the connection last time through the main loop const int postingInterval = 100000; //delay between updates to Pachube.com <br> int dustVal=0; int i=0; float ppm=0; char s[32]; float voltage = 0; float dustdensity = 0; float ppmpercf = 0; </p>
+<p>Then, in our setup we start serial (so we can monitor the device) and connect to the wifi)</p>
+<p><code>void setup(){<br> Serial.begin(115200);<br> pinMode(ledPower,OUTPUT);</code></p>
+<p> i=0;<br> ppm =0;</p>
+<p> // We start by connecting to a WiFi network<br> Serial.println();<br> Serial.println();<br> Serial.print("Connecting to ");<br> Serial.println(ssid);</p>
+<p> WiFi.begin(ssid, password);</p>
+<p> while (WiFi.status() != WL_CONNECTED) {<br> delay(500);<br> Serial.print(".");<br> }</p>
+<p> Serial.println("");<br> Serial.println("WiFi connected"); <br> Serial.println("IP address: ");<br> Serial.println(WiFi.localIP());<br> }</p>
+<p>Now, we're going to write the method that sends the information to dweet. We start by connecting our wifi client to dweet</p>
+<p><code> void Dweet(float value){<br> //method for sending one dweet<br> //connect to the host<br> Serial.print("connecting to ");<br> Serial.println(host);</code></p>
+<p> // Use WiFiClient class to create TCP connections<br> WiFiClient client;<br> const int httpPort = 80;<br> if (!client.connect(host, httpPort)) {<br> //if our client is not connected to the host, we've failed<br> Serial.println("connection failed");<br> return;<br> }</p>
+<p>Then we more on to generate what we're sending to the server</p>
+<p><code>// // We now create a URI for the request<br> String s = "POST /dweet/for/wosp8266?A0=";<br> s.concat(dweetName); // add in the name of the device<br> s.concat("?A0="); // add in '?', the name of the value on Dweet's side, and '='<br> s.concat(value); // add in the value itself<br> </code></p>
+<p>and we're going to send that</p>
+<p><code> Serial.println(s); //print it to the serial monitor to check<br> client.println(s); //'print' it to the internet<br> client.println("Host: www.dweet.io"); //HTML stuff<br> client.println("Connection: close"); //HTML stuff<br> client.println(); //HTML stuff<br> delay(10); //add in a delay to let the server send its response </code></p>
+<p>finally we check if there's a response from the server:</p>
+<p><code> // Read all the lines of the reply from server and print them to Serial so we can check if it worked<br> while(client.available()){<br> String line = client.readStringUntil('\r');<br> Serial.print(line);<br> }</code></p>
+<p> Serial.println();<br> Serial.println("closing connection");<br> } </p>
+<p>Now, we add in the code for using the aptly named <a href="https://www.sparkfun.com/datasheets/Sensors/gp2y1010au_e.pdf" target="_blank">Sharp GP2Y1010AU0F</a>. I took this code from Chris Nafis who did a <a href="http://www.howmuchsnow.com/arduino/airquality/" target="_blank">great writeup</a>! The only thing I modified was to strip out the Arduino Ethernet library and only send the PPM, and send less often.</p>
+<p><code> void loop(){<br> i=i+1;<br> digitalWrite(ledPower,LOW); // power on the LED<br> delayMicroseconds(delayTime);<br> dustVal=analogRead(dustPin); // read the dust value<br> ppm = ppm+dustVal;<br> delayMicroseconds(delayTime2);<br> digitalWrite(ledPower,HIGH); // turn the LED off<br> delayMicroseconds(offTime);</code></p>
+<p> // if you're not connected, and ten seconds have passed since<br> // your last connection, then connect again and send data:<br> if((millis() - lastConnectionTime &gt; postingInterval)) {<br> voltage = ppm/i*0.0049;<br> dustdensity = 0.17*voltage-0.1;<br> ppmpercf = (voltage-0.0256)*120000;<br> if (ppmpercf &lt; 0)<br> ppmpercf = 0;<br> if (dustdensity &lt; 0 )<br> dustdensity = 0;<br> if (dustdensity &gt; 0.5)<br> dustdensity = 0.5;<br> String dataString = "";<br> dataString += dtostrf(voltage, 9, 4, s);<br> dataString += ",";<br> dataString += dtostrf(dustdensity, 5, 2, s);<br> dataString += ",";<br> dataString += dtostrf(ppmpercf, 8, 0, s);<br> i=0;<br> ppm=0;<br> Serial.println(dataString);<br> Dweet(ppmpercf); //we send the parts per million off to dweet<br> delay(1000);<br> }<br> } </p>
+<p>Then go to dweet.io/follow/DEVICE_NAME and you should see a simple graph of your data!</p>
+  </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-node-attachments">
+  
+      <h2 class="pane-title">Attached files</h2>
+  
+  
+  <div class="pane-content">
+    <table id="attachments" class="sticky-enabled">
+ <thead><tr>
+<th>Attachment</th>
+<th>Size</th> </tr></thead>
+<tbody>
+ <tr class="odd">
+<td><a href="dweet_slider.zip">dweet_slider.zip</a></td>
+<td>1.24 KB</td> </tr>
+ <tr class="even">
+<td><a href="esp8266Dust.zip">esp8266Dust.zip</a></td>
+<td>1.83 KB</td> </tr>
+</tbody>
+</table>
+  </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-block pane-creativecommons-lite-0">
+  
+  
+  
+  <div class="pane-content">
+    <p class="creativecommons">
+<!--Creative Commons License-->
+<a href="http://creativecommons.org/licenses/by-sa/3.0/nl/" rel="license" title="Attribution Share Alike"><img alt="Creative Commons license icon" src="../by-sa.png"></a>
+<br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/nl/" rel="license">Attribution Share Alike Creative Commons license</a><br>
+<!--/Creative Commons License-->
+</p>  </div>
+
+  
+  </div>
+<div class="clear-block"></div>      </div>
+</body>

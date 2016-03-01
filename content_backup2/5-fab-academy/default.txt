@@ -1,0 +1,59 @@
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #7c9efc
+
+----
+
+Title: Fab Academy
+
+----
+
+Intro: The Fablab is the perfect place to gain skills on digital fabrication. Whether you use it as an individual, or in a workshop through your school, or as an inventor or entrepreneur, it helps you put your dreams and ideas into real live.
+
+----
+
+Text: 
+
+At the Fab Academy, you will learn how to envision, prototype and document your ideas through many hours of hands-on experience with digital fabrication tools. We take a variety of code formats and turn them into physical objects.
+
+The Fab Academy Diploma consists of a 5 month part-time student commitment, from January to June. The Fab Diploma is the result of the sum of Fab Academy Certificates. Progress towards the diploma is evaluated by a student’s acquired skills rather than time or credits.
+
+The Fab Academy is a fast paced, hands-on learning experience where students plan and execute a new project each week. Each individual documents their progress for each project, resulting in a personal portfolio of technical accomplishments. 
+
+(image: academy2.jpg caption: Fab Academy class of 2013)
+
+##How It Works
+Fab Academy is a distributed educational model providing a unique educational experience.
+
+Each Fab Lab that participates in the (link: http://fabacademy.org text: Fab Academy program) is part of a global Fab Lab / Fab Academy network. These Fab Labs are nodes that offer the Fab Academy program.
+
+Students view and participate in global lectures broadcasted every Wednesdays at 9:00 am – 12:00 pm EST. The lectures are recorded and available to students throughout the semester. In addition to the lectures, there are 2 / 3 lab days each week where students have access the digital fabrication equipment and personal help with projects. Each Fab Lab will establish the schedule for these Lab days.
+
+Fab Academy faculty, who are leaders in their respective fields, provide global video lectures, supervise academic content, and guide research. Hands-on instruction in the labs is provided by instructors who supervise and evaluate Certificates, develop and disseminate instructional material, and assist with projects.
+
+###Program requirements
+A minimum knowledge of the following tools and processes is required:
+- 2D and 3D modeling
+- Digital fabrication
+- Electronics programming
+- Web design and development
+
+If you rate your proficiency in them between Low and Medium, the course should be considered a full-time dedication program. If you rate your proficiency between High and Expert, you can consider the program to be part-time.
+
+----
+
+Subtitle: A fast paced, hands-on learning experience
+
+----
+
+Heroimage: academy.jpg
+
+----
+
+Layout: three-col
+
+----
+
+Videolink: 

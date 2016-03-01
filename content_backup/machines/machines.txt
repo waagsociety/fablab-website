@@ -1,0 +1,29 @@
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #d15858
+
+----
+
+Title: Our machines
+
+----
+
+Subtitle: Fablab Waag Society provides extensive facilities
+
+----
+
+Intro: Fablab Amsterdam provides extensive facilities which can be used for a variety of applications.
+
+----
+
+Text: Fablab Amsterdam provides extensive facilities which can be used for a variety of applications. We have a wide range of electronics and manufacturing equipment as well as hand tools, design space, and materials on stock. Below are the links to the main machines and their specifications, as well as the software we use to run them. You can use the equipment during open day (Thursday), but you have the obligation to document your work at (link: https://openthings.wiki text: OpenThings)!
+
+----
+
+Videolink: https://player.vimeo.com/external/153100779.hd.mp4?s=4b40becdd14dcee45ba6f36275e3bad83df056b3&profile_id=119
+
+----
+
+Heroimage: home_poster.jpg

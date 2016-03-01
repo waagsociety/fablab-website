@@ -9,24 +9,25 @@
   background rgba(#36BFBC, .97)
   box-shadow 5px 5px 8px rgba(#000, .2)
   color white
-  overflow scroll
   padding 80px 50px 80px 80px
   z-index 4
   font-size 3em
   font-family 'BalanceComp-bold', 'brandon_textbold', sans-serif
   transition transform .15s ease-out
   transform-origin top left
-  li
-    a
-      color canvas
-      text-transform uppercase
-      padding 10px 20px
-      display inline-block
-      margin 4px
-      &:hover
-        border 4px solid white
-        margin 0
-        background #fc7d7d;
+  overflow auto
+  ul.mainMenu
+    li
+      a
+        color canvas
+        text-transform uppercase
+        padding 10px 20px
+        display inline-block
+        margin 4px
+        &:hover
+          border 4px solid white
+          margin 0
+          background #fc7d7d;
 
 .slide-menu.closed
   transform translateX(-100%)
@@ -66,7 +67,7 @@
       opacity 1
       left 0
       transform rotate(0deg)
-      transition .25s ease-in-out
+      transition transform .25s ease-in-out, top .25s ease-in-out, left .25s ease-in-out, width .25s ease-in-out, opacity .25s ease-in-out
 .hamburger-menu.black
   .habmburer__inner
     span

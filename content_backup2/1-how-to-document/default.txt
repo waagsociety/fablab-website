@@ -1,0 +1,47 @@
+Heroimage: blueprint-from1919.jpg
+
+----
+
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #ff774a
+
+----
+
+Title: How to document?
+
+----
+
+Videolink: 
+
+----
+
+Subtitle: In 4 easy steps
+
+----
+
+Intro: These are the four easy steps to follow when documenting your work.
+
+----
+
+Text: 
+
+###1. You document your work at (link: https://openthings.wiki text: Openthings.wiki)
+Create an account or log in, then start a new project. Don't forget to use the tag *Fablab Amsterdam*.
+
+Read the manual: (link: http://waag.org/sites/waag/files/public/media/publicaties/openthings-manual.pdf text: "How to add a project at Openthings") (pdf)
+
+###2. Start documenting right away
+When you start working at the Fab Lab, make notes and photos. Directly after you've finished your first job, you can give a description of your work at your project page. Don't worry if something went wrong; this is also something others can learn from!
+
+###3. What to describe
+Things to put at your project page are at least: a title, a clear picture (can be a concept drawing in first instance), a description of what you made, the materials and the design file that you used. You can mark for which users your project is suitable (ranging from beginner to expert) and in which state your project is (ranging from concept to finished). Choose a Creative Commons license for your work. Optional are: machine settings, your state-of-mind and coffee ratings.
+
+###4. Featured at our website
+Well-documented work may get featured on our website, reaching thousands of visitors. It may also spark reactions on your project, people can make their own contributions or re-use your files.
+
+----
+
+Layout: four-col

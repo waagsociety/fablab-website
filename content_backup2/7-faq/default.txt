@@ -1,0 +1,57 @@
+Heroimage: questions.jpg
+
+----
+
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #242323
+
+----
+
+Title: FAQ
+
+----
+
+Videolink: 
+
+----
+
+Subtitle: Frequently asked questions answered
+
+----
+
+Intro: The simplest answer to all questions is: visit the open day on Saturday, and ask the staff. But we can answer some questions here too.
+
+----
+
+Text: 
+
+###Can we discuss the details about my prototype via the mail?
+We're sorry, we can't do that via the mail, but you are welcome to visit us during our open day, every Saturday from 10 – 17.00 (except holiday periods).
+
+###Can I hire a machine on weekdays?
+Outside the open day it is not possible to hire machines on an hourly basis. If you wish, you can hire the complete Fab Lab for half a day or a complete day and invite your crew to make your prototype at our facilities. (link: http://waag.org/contact text: Contact) our Services department.
+
+###How can I book a machine on the open day?
+Go to the machines page to make a booking for a machine. You pay an hourly fee for each machine at our location. You will receive a refund if you document your work in the right way at Openthings.
+
+###How do I check the availability of the machines?
+Please check the online calendar of the machines at the booking pages.
+
+###How do I know if I prepared the right files for the machines?
+You can find information at the machine pages, including the specifications of the machines. If you are not sure, visit the open day and ask our staff.
+
+###Help, I don't know how to use the machine!
+Don’t worry, there will be someone of us helping you to start your job.
+
+###Can I make series of my work?
+No, for that purpose you will have to take your work to an industrial partner.
+
+###Can I get a tour? Can I make a visit? Get a presentation?
+No, we do not organize tours and presentations. You can just walk in during the open day.
+
+----
+
+Layout: one-col

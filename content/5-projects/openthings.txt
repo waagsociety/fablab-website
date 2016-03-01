@@ -1,0 +1,49 @@
+Heroimage: 
+
+----
+
+Icon: 
+
+----
+
+Api: "https://www.openthings.wiki/api/projects/search?tag=46,47&nr_of_items=6&current_page=2"
+
+----
+
+Title: Get inspired!
+
+----
+
+Videolink: 
+
+----
+
+Subtitle: Making, learning and sharing
+
+----
+
+Intro: Do you need inspiration for your project? Or do you want to contribute to projects of other people?
+
+----
+
+Text: 
+
+----
+
+Layout: four-col
+
+----
+
+Elementheight: full-height
+
+----
+
+Border: 
+
+----
+
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #59a356

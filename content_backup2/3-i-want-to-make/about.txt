@@ -1,0 +1,46 @@
+Title: What is a Fab Lab?
+
+----
+
+Text: 
+
+A Fab Lab is a platform for learning and innovation: a place to play, to create, to learn, to mentor, to invent. Our Fab Lab is a member of a global community of learners, educators, technologists, researchers, makers and innovators. Because all Fab Labs share common tools and processes, the program is building a global network, a distributed laboratory for research and invention.
+
+## Learning and creating
+Users learn by designing and creating objects of personal interest or import. Empowered by the experience of making something themselves, they both learn and mentor each other, gaining deep knowledge about the machines, the materials, the design process, and the engineering that goes into invention and innovation. In educational settings, rather than relying on a fixed curriculum, learning happens in an authentic, engaging, personal context, one in which students go through a cycle of imagination, design, prototyping, reflection, and iteration as they find solutions to challenges or bring their ideas to life.
+
+(image: make.jpg caption: To make almost anything)
+
+### Inventory
+A Fab Lab is comprised of off-the-shelf, industrial-grade fabrication and electronics tools. Currently Fab Labs include a laser cutter that makes 2D and 3D structures, a sign cutter that plots in copper to make antennas and flex circuits, a high-resolution NC milling machine that makes circuit boards and precision parts, a large wood router for building furniture and housing, and a suite of electronic components and programming tools for low-cost, high-speed microcontrollers for on-site rapid circuit prototyping.
+
+#### Fab Academy
+As support for advanced technical education and to provide a training path for new Fab Lab managers, (link: http://fabacademy.org text: Fab Academy), an internationally distributed campus for technical education, has emerged from the Fab Lab program. The Fab Academy provides instruction and supervises investigation of mechanisms, applications, and implications of digital fabrication. It is held annually between January and June.
+
+----
+
+Intro: Fab Labs are a global network of local labs, enabling invention by providing access to tools for digital fabrication. Fablab Amsterdam gives you the chance to experiment with digital fabrication, learn and share your experiences with others.
+
+----
+
+Textcolor: #ffffff
+
+----
+
+Pagecolor: #f03c57
+
+----
+
+Subtitle: To make almost anything
+
+----
+
+Heroimage: make.jpg
+
+----
+
+Layout: four-col
+
+----
+
+Videolink: 

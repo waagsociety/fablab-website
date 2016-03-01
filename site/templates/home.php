@@ -10,4 +10,6 @@
     </a>
    <?php endforeach ?>
   </main>
+<?php snippet('machines') ?>
+<?php snippet('newsletter') ?>
 <?php snippet('footer') ?>

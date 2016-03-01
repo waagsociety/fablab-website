@@ -1,0 +1,33 @@
+Heroimage: 
+
+----
+
+Videolink: 
+
+----
+
+Machineimage: vinyl.svg
+
+----
+
+Textcolor: #333333
+
+----
+
+Pagecolor: #f2f2f2
+
+----
+
+Title: Vinyl cutter
+
+----
+
+Subtitle: 
+
+----
+
+Intro: 
+
+----
+
+Text: 

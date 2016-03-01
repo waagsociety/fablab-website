@@ -1,0 +1,158 @@
+<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> </head><body><div id="sidebar-left">
+        
+    <div class="type">
+    	<a href="/projects">projects</a>
+      <img alt="project-view" style="padding-right:10px; padding-left:10px;" src="../arrow_proj.gif">
+    </div>
+    <div class="title"><a href="/project/fabtinystar">FabTinyStar</a></div>
+  	<div class="nav">
+<a href="/project/fabtinystar" class="active">product</a> | <a href="/project/fabtinystar/documentation">documentation</a>
+</div>
+<div class="panel-pane pane-views-panes pane-projects-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-projects view-id-projects view-display-id-panel_pane_1 image-display-wrapper view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-fid">
+                <span class="field-content"><img src="./cache/20131206_010.jpg" alt="" title="" width="800" height="525" class="imagecache imagecache-fablab_projects_image_800x525 imagecache-default imagecache-fablab_projects_image_800x525_default"></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-views-panes pane-documentation-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-documentation view-id-documentation view-display-id-panel_pane_1 author view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <img src="picture-2774.jpg" alt="Zaerc's picture" title="Zaerc's picture">
+</div></div>
+  </div>
+  
+  <div class="views-field-name">
+          <label class="views-label-name">
+        Created by:
+      </label>
+                <span class="field-content">Zaerc</span>
+  </div>
+  
+  <div class="views-field-created">
+          <label class="views-label-created">
+        Submitted on:
+      </label>
+                <span class="field-content">Tue, 11/05/2013</span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-node-body">
+  
+  
+  
+  <div class="pane-content">
+    <p>This basically started out as a 100% fab-able version of the <a href="http://www.simpleavr.com/avr/vusbtiny">vusbtiny programmer from simpleavr</a> with a few minor additions, namely a switch and indicator-led for target-power and a led on the SCK line (just like a real arduino). It was inspired by <a href="http://fab.cba.mit.edu/content/projects/fabisp/">David Mellis' FabISP</a> and <a href="http://fab.cba.mit.edu/content/projects/fabispkey/">Andy Bardagjy's FabISPKey</a> although it doesn't feature any solder jumpers or zero-ohm resistors ;).  I used to call it FabTinyISP, but since it has so many other uses, I have decided to change the name to FabTiny* (aka. FabTinyStar) where the asterisks symbolises a wildcard denoting the endless possibilities.  Or as Bas Withagen put it: a Fab-Tiny-Anything.</p>
+<p><img src="fabTinyISP-006_sch.png" alt="FabTinyISP schematic" width="500" height="232"></p>
+<p>If you put an ATtiny85 on it instead, then you should be able to flash it with the <a href="https://github.com/micronucleus/micronucleus">Micronucleus bootloader</a> and it will be almost completely compatible with the <a href="http://littlewire.cc/index.html">LittleWire</a> and somewhat compatible with the the <a href="http://digistump.com/category/1">DigiSpark</a>, however the USB lines are wired differently so their software needs to be recompiled after a simple, minor modification to reflect this difference.  This is no longer needed from version 0.2 upwards.</p>
+<p><img src="fabTinyISP-006_brd.png" alt="FabTinyISP layout" width="500" height="164"></p>
+<p>And of course you can always write your own firmware for it with <a href="http://www.obdev.at/products/vusb/index.html">vusb</a>, I found the following tutorials very useful to get started (especially the last part):</p>
+<p><a href="http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/" title="http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/">http://codeandlife.com/2012/01/22/avr-attiny-usb-tutorial-part-1/</a><br><a href="http://codeandlife.com/2012/01/25/avr-attiny-usb-tutorial-part-2/" title="http://codeandlife.com/2012/01/25/avr-attiny-usb-tutorial-part-2/">http://codeandlife.com/2012/01/25/avr-attiny-usb-tutorial-part-2/</a><br><a href="http://codeandlife.com/2012/01/29/avr-attiny-usb-tutorial-part-3/" title="http://codeandlife.com/2012/01/29/avr-attiny-usb-tutorial-part-3/">http://codeandlife.com/2012/01/29/avr-attiny-usb-tutorial-part-3/</a><br><a href="http://codeandlife.com/2012/02/04/avr-attiny-usb-tutorial-part-4/" title="http://codeandlife.com/2012/02/04/avr-attiny-usb-tutorial-part-4/">http://codeandlife.com/2012/02/04/avr-attiny-usb-tutorial-part-4/</a><br><a href="http://codeandlife.com/2012/02/22/v-usb-with-attiny45-attiny85-without-a-crystal/" title="http://codeandlife.com/2012/02/22/v-usb-with-attiny45-attiny85-without-a-crystal/">http://codeandlife.com/2012/02/22/v-usb-with-attiny45-attiny85-without-a...</a></p>
+<p>And for troubleshooting see: <a href="http://vusb.wikidot.com/troubleshooting" title="http://vusb.wikidot.com/troubleshooting">http://vusb.wikidot.com/troubleshooting</a></p>
+<p>TODO:</p>
+<p>* <span style="text-decoration: line-through;">Breakout USB pins as well.</span> (done in version 0.1.1)<br>* <span style="text-decoration: line-through;">Fix incorrect slide-switch footprint.</span> (done in version 0.2 "BWE")<br>* <span style="text-decoration: line-through;">Reverse D+ and D- for compatibility.</span> (done in version 0.2 "BWE")<br>* <span style="text-decoration: line-through;">Add a reset/user button.</span> (done in version 0.3 "Bas")<br>* <span style="text-decoration: line-through;">Running on 3.3 Volt</span>. (done in version 0.3.3 "Dave")</p>
+<p>Unless you need to be running at 3.3 volt, I recommend using the 5 volt version 0.3 (Bas).</p>
+<p>You'll have to manually rename the files below to have an "<em>.tar.bz2</em>" extension before use.</p>
+  </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-node-attachments">
+  
+      <h2 class="pane-title">Attached files</h2>
+  
+  
+  <div class="pane-content">
+    <table id="attachments" class="sticky-enabled">
+ <thead><tr>
+<th>Attachment</th>
+<th>Size</th> </tr></thead>
+<tbody>
+ <tr class="odd">
+<td><a href="fabTinyStar-013.tar_.bz2_.txt">fabTinyStar-013.tar_.bz2_.txt V0.3.3 (Dave)</a></td>
+<td>196.33 KB</td> </tr>
+ <tr class="even">
+<td><a href="fabTinyStar-012.tar_.bz2_.txt">fabTinyStar-012.tar_.bz2_.txt V0.3 (Bas)</a></td>
+<td>74.65 KB</td> </tr>
+ <tr class="odd">
+<td><a href="fabTinyStar-009.tar_.bz2_.txt">fabTinyStar-009.tar_.bz2_.txt V0.2 (BWE)</a></td>
+<td>166.32 KB</td> </tr>
+ <tr class="even">
+<td><a href="fabTinyStar-007.tar_.bz2_.txt">fabTinyStar-007.tar_.bz2_.txt V0.1.1</a></td>
+<td>173.4 KB</td> </tr>
+ <tr class="odd">
+<td><a href="fabTinyIsp-006.tar_.bz2_.txt">fabTinyIsp-006.tar_.bz2_.txt  V0.1</a></td>
+<td>98.34 KB</td> </tr>
+ <tr class="even">
+<td><a href="fabTinyFirm-tmp.tar_.bz2_.txt">fabTinyFirm-tmp.tar_.bz2_.txt (bootloader and a few sample hex files)</a></td>
+<td>13.95 KB</td> </tr>
+ <tr class="odd">
+<td><a href="vusbtiny-fabtinystar.zip">vusbtiny-fabtinystar.zip</a></td>
+<td>338.33 KB</td> </tr>
+</tbody>
+</table>
+  </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-block pane-creativecommons-lite-0">
+  
+  
+  
+  <div class="pane-content">
+    <p class="creativecommons">
+<!--Creative Commons License-->
+<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/nl/" rel="license" title="Attribution Non-commercial Share Alike"><img alt="Creative Commons license icon" src="/sites/default/modules/creativecommons_lite/images/buttons_large/by-nc-sa.png"></a>
+<br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/nl/" rel="license">Attribution Non-commercial Share Alike Creative Commons license</a><br>
+<!--/Creative Commons License-->
+</p>  </div>
+
+  
+  </div>
+<div class="clear-block"></div>      </div>
+</body>

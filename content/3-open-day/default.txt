@@ -1,0 +1,47 @@
+Heroimage: pme_1.jpg
+
+----
+
+Textcolor: #000000
+
+----
+
+Pagecolor: #f5d418
+
+----
+
+Title: Open day
+
+----
+
+Videolink: 
+
+----
+
+Subtitle: You're welcome on Saturday
+
+----
+
+Intro: We're open every Saturday (except holidays). You can book one of the machines in our Fab Lab to create your project.
+
+----
+
+Text: 
+
+Our open days are for making, learning and sharing. You share your learning experience by documenting your work at (link: openthings.wiki text: Openthings). When you share your experiences and learning process, you will be rewarded with a 50% refund. Please follow the guidelines on how to document your work. If you book a machine, this also includes support. You also have to bring your own material, although some basics can be bought at the Fab Lab.
+
+We have the following machines available:
+- laser cutter
+- big milling machine (ShopBot)
+- small milling machine (Modela)
+- vinyl cutter
+- 3d printers
+- embroidery machine
+
+Specifications of each machine and their hourly rates can be found at their respective machine pages. You can book the machines through our booking system on our open day on Saturday. You pay an hourly rate for each machine. You can pay either in cash or with PIN when you visit the Fablab.
+
+When you document your work at (link: Openthings.wiki text: Openthings.wiki), you are eligible for a 50% refund.
+
+----
+
+Layout: four-col

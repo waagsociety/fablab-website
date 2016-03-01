@@ -1,0 +1,42 @@
+Heroimage: vinyl.svg
+
+----
+
+Videolink: https://player.vimeo.com/external/153100781.hd.mp4?s=d14adb878880a750986a557b07fe4a3b5785bf51&profile_id=113
+
+----
+
+Machineimage: vinyl.svg
+
+----
+
+Textcolor: #333333
+
+----
+
+Pagecolor: #f2f2f2
+
+----
+
+Title: Vinyl cutter
+
+----
+
+Subtitle: To cut out patterns, letters and more
+
+----
+
+Intro: Make stickers with this cutter.
+
+----
+
+Text: 
+
+With the vinyl cutter you can make stickers of max. 58 cm wide, and 25 meters long, but it is also possible to cut copper foil, paper and other material.
+
+**Specifications**
+- Working area: 50 to 584 mm wide, up to 25.000 mm long
+- Mechanical resolution: 0.0125mm
+- Software resolution: 0.025mm 
+- Software used: Adobe Illustrator
+- Vinyl cutting speed: 20 cm/s

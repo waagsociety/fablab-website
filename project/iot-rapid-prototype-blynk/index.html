@@ -1,0 +1,116 @@
+<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> </head><body><div id="sidebar-left">
+        
+    <div class="type">
+    	<a href="/projects">projects</a>
+      <img alt="project-view" style="padding-right:10px; padding-left:10px;" src="../arrow_proj.gif">
+    </div>
+    <div class="title"><a href="/project/iot-rapid-prototype-blynk">IoT Rapid Prototype with Blynk</a></div>
+  	<div class="nav"></div>
+<div class="panel-pane pane-views-panes pane-projects-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-projects view-id-projects view-display-id-panel_pane_1 image-display-wrapper view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-fid">
+                <span class="field-content"><img src="./cache/pins.jpg" alt="" title="" width="800" height="525" class="imagecache imagecache-fablab_projects_image_800x525 imagecache-default imagecache-fablab_projects_image_800x525_default"></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-views-panes pane-documentation-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-documentation view-id-documentation view-display-id-panel_pane_1 author view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <img src="user_pic_default.jpg" alt="womeijer's picture" title="womeijer's picture">
+</div></div>
+  </div>
+  
+  <div class="views-field-name">
+          <label class="views-label-name">
+        Created by:
+      </label>
+                <span class="field-content">womeijer</span>
+  </div>
+  
+  <div class="views-field-created">
+          <label class="views-label-created">
+        Submitted on:
+      </label>
+                <span class="field-content">Mon, 12/07/2015</span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-node-body">
+  
+  
+  
+  <div class="pane-content">
+    <p><strong>Going from 0 to turning a LED on and off in 5 minutes</strong></p>
+<p>You need:<br>- Android/iPhone<br>- the Blynk app<br>- esp8266 based module (in this case a NodeMCU devkit) running the <a href="https://github.com/esp8266/Arduino" target="_blank">Arduino firmware<br></a>- a LED (plus resistor if not 3.3v tolerant)<br>- a solderless breadboard<br>- Arduino IDE</p>
+<p><strong>Step 1: install<br></strong>Go to <a href="http://www.blynk.cc/getting-started/" target="_blank" style="background-color: transparent;">http://www.blynk.cc/getting-started/</a> it has links for the Android and iPhone versions of the app, install the approperiate one and also <a href="http://www.blynk.cc/getting-started/" target="_blank" style="background-color: transparent;">install the Blynk Arduino Library</a></p>
+<p><strong>Step 2: start a Blynk Project<br></strong>Open up the Blynk App on your phone and follow the <a href="http://imgur.com/gallery/wbsrV" target="_blank">pictures</a>!</p>
+<p><strong>Step 3: the devkit, the board<br></strong>Place the devkit on the board and place the LED so the longer pin goes connects with D5 and the short pin connects with ground. (Why D5, when we use gp14 on Blynk? Because the devkit messes up the <a href="https://github.com/esp8266/Arduino/blob/master/doc/boards.md#pin-mapping" target="_blank">numbering of the pins</a>.)</p>
+<p><img src="pins.jpg" width="446" height="500"></p>
+<p><strong>Step 4: Arduino Code<br></strong>On your computer, open up the Arduino IDE. Then you need to open up the Blynk example code, this is under File&gt;Examples&gt;Blynk&gt;BoardsAndShields&gt;ESP8266Standalone. This should open a very simple example file.</p>
+<p>You need to add your Auth token (which you should have emailed to yourself) on line 34 char &gt;auth[] = "YourTokenHere";<br>Then you need to replace "ssid","pass" on line 39 with the ssid and password of your wifi network.</p>
+<p>Compile and upload that code to your NodeMCU Devkit. </p>
+<p><strong>Step 5: go!<br></strong>If all went well, then you should be able to press play on your Blynk app, and use the button to controll the LED!</p>
+  </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-block pane-creativecommons-lite-0">
+  
+  
+  
+  <div class="pane-content">
+    <p class="creativecommons">
+<!--Creative Commons License-->
+<a href="http://creativecommons.org/licenses/by-sa/3.0/nl/" rel="license" title="Attribution Share Alike"><img alt="Creative Commons license icon" src="../by-sa.png"></a>
+<br>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/nl/" rel="license">Attribution Share Alike Creative Commons license</a><br>
+<!--/Creative Commons License-->
+</p>  </div>
+
+  
+  </div>
+<div class="clear-block"></div>      </div>
+</body>

@@ -1,0 +1,33 @@
+Heroimage: 
+
+----
+
+Videolink: 
+
+----
+
+Machineimage: small_milling.svg
+
+----
+
+Textcolor: #333333
+
+----
+
+Pagecolor: #f2f2f2
+
+----
+
+Title: Small milling machine
+
+----
+
+Subtitle: 
+
+----
+
+Intro: 
+
+----
+
+Text: 

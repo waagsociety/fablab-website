@@ -1,0 +1,46 @@
+Heroimage: 
+
+----
+
+Videolink: 
+
+----
+
+Machineimage: small_milling.svg
+
+----
+
+Textcolor: #333333
+
+----
+
+Pagecolor: #f2f2f2
+
+----
+
+Title: Small milling machine
+
+----
+
+Subtitle: Roland Modela MDX-20
+
+----
+
+Intro: The Roland Modela MDX-20 is used for precision 3D milling and 3D scanning, as well as for circuit board milling.
+
+----
+
+Text: 
+
+A variety of tools can be used with this machine, including straight-end mills or cutters for rough cuts and square edges, or ball-end mills for finishing. The MDX-20 mills ABS, acrylic, woods, plaster, styrene foam, chemical wood, modeling wax, and light metals such as aluminum and brass. Please note that 3D model jobs can take a long time (< 12h).
+
+**Specifications**
+- Working area: 200 mm x 160 mm
+- Maximum part size: 203.2 mm x 152.4 mm x 60.5 mm 
+- Resolution: 0.025 mm/step
+- Mechanical resolution: 0.00625 mm/step
+- Software used: for 3D milling Roland Modela player, for circuit boards Cad.py (Linux) 
+- Acceptable file formats: STL, PNG  
+- 3D Scanning functions: probe length 60 mm (2-5/16 in.), bulb diameter 0.08 mm (0.00315 in.)  
+- Scanning speed : 4-15 mm/sec. (1/8-9/16 in./sec.)  
+- Exportable file formats : DXF, VRML, STL, 3DMF, IGES, Grayscale, Point Group and BMP  

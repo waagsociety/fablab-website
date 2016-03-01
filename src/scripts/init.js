@@ -14,13 +14,13 @@ function loadWayPoint(){
 			home_btn = document.querySelector('.home_btn'),
 
 			waypoint = new Waypoint({
-	  		element: document.querySelector('.defaultPage'),
+	  		element: document.querySelector('.changecolorblack'),
 	  		handler: function() {
 	    		hamburger_btn.classList.toggle("black");
 					machine_btn.classList.toggle("black");
 					home_btn.classList.toggle("black");
 	  		},
-  			offset: 100
+  			offset: 200
 			});
 };
 

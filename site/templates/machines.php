@@ -1,11 +1,25 @@
+<?php
+  $items = $pages->find('machines')->children();
+
+?>
+
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
+  <main class="main defaultPage changecolorblack" role="main">
+    <?php if($page->text()->isNotEmpty()): ?>
+      <div class="text">
+        <?php echo $page->text()->kirbytext() ?>
+      </div>
+    <?php endif ?>
+    <?php snippet('machines') ?>
   </main>
 
-<?php snippet('footer') ?>
+
+
+  <?php if($page->hasNextVisible()): ?>
+    <section class="page_footer">
+      <a href="<?php echo $page->nextVisible()->url() ?>" class="btn btn-2">next page</a>
+    </section>
+  <?php endif ?>
+
+  <?php snippet('footer') ?>

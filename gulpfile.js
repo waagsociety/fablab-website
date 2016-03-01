@@ -31,7 +31,9 @@ gulp.task('js', function() {
 });
 
 gulp.task('headerjs', function() {
-  gulp.src([
+  gulp.src([,
+    'bower_components/jquery/dist/jquery.min.js',
+    'bower_components/src/jquery.smoothState.js',
     'bower_components/fetch/fetch.js',
     'bower_components/es6-promise/promise.min.js',
     'bower_components/masonry/dist/masonry.pkgd.min.js',

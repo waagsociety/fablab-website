@@ -1,0 +1,58 @@
+Heroimage: academy.jpg
+
+----
+
+Machineimage: laser.svg
+
+----
+
+Textcolor: #333333
+
+----
+
+Pagecolor: #f2f2f2
+
+----
+
+Title: Laser cutter
+
+----
+
+Subtitle: This BRM is the new large laser cutter acquired in 2015
+
+----
+
+Intro: This BRM is the new large laser cutter acquired in 2015. All BRM Laser machines come standard-equipped with servo motors, thereby ensuring your end product’s stability. In addition, the laser tube is chilled by a closed and alarmed water cooling system. To operate this huge machine, (some) assistance by skilled crew members is required.
+
+----
+
+Text: 
+
+This BRM is the new large laser cutter acquired in 2015. All BRM Laser machines come standard-equipped with servo motors, thereby ensuring your end product’s stability. In addition, the laser tube is chilled by a closed and alarmed water cooling system. To operate this huge machine, (some) assistance by skilled crew members is required.
+
+NOTE: If you are making a reservation for this machine for the first time, you will have to allow some time to get familiar with it. Reservations for less than an hour are therefore NOT recommended!
+
+**Specifications**
+- Type/model: BRM1612
+- Max. work area: 1200x1600 mm
+- Lasertype: CO2
+- Power 100 W (Working life: 1500-3000 hrs)
+- Adjustable height workbench: 300 mm
+- Engraving Speed: 750 mm/sec
+- Cutting speed: 400 mm/min
+- Laser output: 1-100%
+- Accuracy: Less than 0.01mm
+- Scanner resolution: 50-1000 DPI
+- Software: Lasercut 5.3
+- Supported graphics: BMP, CIF, JPEG, TGA, TIFF, PLT, AI, DXF, DST, etc.
+- Compatible software: CorelDraw, AutoCAD, Photoshop
+
+With this machine you can cut & engrave: Nonmetal material, such as acrylic, rubber sheet, plastic, crystal, glass, wood, MDF, plywood, bamboo, marble, leather, cloth, garments, paper, double-color board, marble, etc.
+
+Restrictions for health care: organic and synthetic felt may only be lasered max. 2 hours a day! Leather may only be lasered max. 4 hours a day!
+
+You can not cut: steel and non-ferro material such as aluminium, brass, copper and PVC. Engraving is possible only by using a special spray or wet newspapers (ask the staff, do not experiment yourself). Caution: cutting PVC harms your health and is therefore not allowed.
+
+----
+
+Videolink: 

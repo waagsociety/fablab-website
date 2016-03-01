@@ -1,0 +1,123 @@
+<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> </head><body><div id="sidebar-left">
+        
+    <div class="type">
+    	<a href="/projects">projects</a>
+      <img alt="project-view" style="padding-right:10px; padding-left:10px;" src="../arrow_proj.gif">
+    </div>
+    <div class="title"><a href="/project/smartcard-emulator">Smartcard emulator</a></div>
+  	<div class="nav">
+<a href="/project/smartcard-emulator" class="active">product</a> | <a href="/project/smartcard-emulator/documentation">documentation</a>
+</div>
+<div class="panel-pane pane-views-panes pane-projects-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-projects view-id-projects view-display-id-panel_pane_1 image-display-wrapper view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-fid">
+                <span class="field-content"><img src="./cache/Cir_smartcard_comp_ico.jpg" alt="" title="" width="800" height="525" class="imagecache imagecache-fablab_projects_image_800x525 imagecache-default imagecache-fablab_projects_image_800x525_default"></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-views-panes pane-documentation-panel-pane-1">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-documentation view-id-documentation view-display-id-panel_pane_1 author view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <img src="picture-1990.jpg" alt="friso's picture" title="friso's picture">
+</div></div>
+  </div>
+  
+  <div class="views-field-name">
+          <label class="views-label-name">
+        Created by:
+      </label>
+                <span class="field-content">friso</span>
+  </div>
+  
+  <div class="views-field-created">
+          <label class="views-label-created">
+        Submitted on:
+      </label>
+                <span class="field-content">Thu, 12/01/2011</span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-node-body">
+  
+  
+  
+  <div class="pane-content">
+    <p>With the smartcard PC emulator you can interface to any device that accepts smartcards (ISO 7816), like cell phones (with the SIM adapter (not made in this project)) or for instance digital cable tv receivers, chipknip devices etc. It can be used for investigative purposes, reverse engineering and other things.</p>
+<p>I have used the design from <a href="http://www.circuitsarchive.org/index.php/SmartCard_PC_Emulator">circuitsarchive</a> and have converted the PCB layout (through hole) below...</p>
+<p><img src="http://www.circuitsarchive.org/images/f/f1/Cir_smartcard_pcb_ico.gif" width="600" height="300"></p>
+<p>by removing the information surrounding the board, leaving the actual PCB layout and convert it to 500 dpi. This <a href="http://www.circuitsarchive.org/files/smcpcb.zip">archive</a> contains the same image in 1200 dpi and i've edited it and converted it to 500 dpi PNG so that it can be used on the Modela for milling, but ran into a lot of problems, the dimensions of the design do not translate well with the cad.py program and the modela toolpath. Mainly the design is not made for milling on the modela, and the 1/64" milling bits kept breaking, so i've decided to redesign the whole project in Eagle. (which as of currently i am still working on)</p>
+<p>The <a href="http://fablab.marcboon.com/pcb/index.html">tutorial </a>provided by Mark Boon provided a great starting point. The tutorial provides a link to design rules for eagle that are important, because they instruct the Eagle PCB design program to create PCB milling and drilling files that are compatible with the modela and can mill drill completely and quickly. There is also a Eagle ULP (user language program) for modela milling and drilling that creates the toolpath. After i have succesfully created this project using this workflow i will provide a step-by-step tutorial on how to create any (simple) circuit on the modela for through-hole electronic design.</p>
+<p>This project uses through hole electronics, (which means that we drill holes through the PCB boards and the electronic components are soldered on the bottom of the board - more info [here ADD]. </p>
+<p>The modela can be tricky to use, so i will first explain how to set that up using the linux PC with the USB-RS232 converter. USB-RS232 converters can have timing problems [?] and other compatibility issues, but for PCB milling on the modela the one in the fablab works in this setup [check].</p>
+<p>The rml file is ready made here. [make]</p>
+<p>Instead of the MAX232 i'm using the compatible MAX3232 that is more easily available nowadays. </p>
+<p>- milling</p>
+<p>- drilling </p>
+<p>- soldering</p>
+<p>Parts list :</p>
+<p>i've ordered the parts through <a href="http://www.dickbest.nl" title="www.dickbest.nl">www.dickbest.nl</a>, the PCB which is FR1 (paper based) with copper on both sides should be in stock at the fablab, as well as some of the other parts.</p>
+<p>What you need to get is the 74LS 07 and the MAX3232CPE+. </p>
+  </div>
+
+  
+  </div>
+<div class="clear-block"></div>
+<div class="panel-pane pane-block pane-creativecommons-lite-0">
+  
+  
+  
+  <div class="pane-content">
+    <p class="creativecommons">
+<!--Creative Commons License-->
+<a href="http://creativecommons.org/licenses/publicdomain/" rel="license" title="Public Domain"><img alt="Creative Commons license icon" src="/sites/default/modules/creativecommons_lite/images/buttons_large/publicdomain.png"></a>
+<br>This work is licensed under a <a href="http://creativecommons.org/licenses/publicdomain/" rel="license">Public Domain Creative Commons license</a><br>
+<!--/Creative Commons License-->
+</p>  </div>
+
+  
+  </div>
+<div class="clear-block"></div>      </div>
+</body>

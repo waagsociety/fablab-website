@@ -1,0 +1,29 @@
+Heroimage: 
+
+----
+
+Textcolor: #4a4a4a
+
+----
+
+Pagecolor: #f8e71c
+
+----
+
+Title: Openthings
+
+----
+
+Subtitle: 
+
+----
+
+Intro: The platform for designers who want to go beyond consuming. Join the beehive and become a prosumer.
+
+----
+
+Text: 
+
+----
+
+Layout: three-col-two

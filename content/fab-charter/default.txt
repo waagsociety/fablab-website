@@ -1,0 +1,56 @@
+Heroimage: fablab-setting-machines.jpg
+
+----
+
+Textcolor: #0d7791
+
+----
+
+Pagecolor: #ffffff
+
+----
+
+Title: The Fab Lab Charter
+
+----
+
+Videolink: 
+
+----
+
+Subtitle: 
+
+----
+
+Intro: The international Fab Lab Charter.
+
+----
+
+Text: 
+
+##What is a Fab Lab?
+Fab Labs are a global network of local labs, enabling invention by providing access to tools for digital fabrication.
+
+##What’s in a Fab Lab?
+Fab Labs share an evolving inventory of core capabilities to make (almost) anything, allowing people and projects to be shared.
+
+##What does the Fab Lab network provide?
+Operational, educational, technical, financial, and logistical assistance beyond what’s available within one lab.
+
+##Who can use a Fab Lab?
+Fab Labs are available as a community resource, offering open access for individuals as well as scheduled access for programs.
+
+##What are your responsibilities?
+Safety: not hurting people or machines.
+Operations: assisting with cleaning, maintaining, and improving the lab.
+Knowledge: contributing to documentation and instruction.
+
+##Who owns Fab Lab inventions?
+Designs and processes developed in Fab Labs can be protected and sold however an inventor chooses, but should remain available for individuals to use and learn from.
+
+##How can businesses use a Fab Lab?
+Commercial activities can be prototyped and incubated in a Fab Lab, but they must not conflict with other uses, they should grow beyond rather than within the lab, and they are expected to benefit the inventors, labs, and networks that contribute to their success.
+
+----
+
+Layout: four-col
