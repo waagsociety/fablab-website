@@ -1,5 +1,6 @@
 node_modules
 bower_components
 assets/fonts
+site/config
 *.sublime-project
 *.sublime-workspace
