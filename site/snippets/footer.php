@@ -25,9 +25,7 @@
     <p class="right">
       Made with &hearts; by <a href="http://www.waag.org">Waag Society</a> - Check out the code on <a href="https://github.com/waagsociety/fablab-website">github</a>
     </p>
-    <a href="http://www.waag.org">
-
-      <ul class="logo_bar">
+      <ul class="logo_bar left">
         <li>
           <a href="https://openthings.wiki/tag/47" class="openthings_header_logo">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

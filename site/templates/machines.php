@@ -5,7 +5,7 @@
 
 <?php snippet('header') ?>
 
-  <main class="main defaultPage changecolorblack" role="main">
+  <main class="main defaultPage" role="main">
     <?php if($page->text()->isNotEmpty()): ?>
       <div class="text">
         <?php echo $page->text()->kirbytext() ?>

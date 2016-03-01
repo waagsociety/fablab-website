@@ -2,11 +2,11 @@ Heroimage: questions.jpg
 
 ----
 
-Textcolor: #ffffff
+Textcolor: #333333
 
 ----
 
-Pagecolor: #242323
+Pagecolor: #f0f0f0
 
 ----
 

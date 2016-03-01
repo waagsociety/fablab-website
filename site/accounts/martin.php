@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
-  - home
-  - machines/embroidery-machine
   - projects
+  - how-to-document
+  - i-want-to-make
   - faq
-  - fab-academy
+  - open-day

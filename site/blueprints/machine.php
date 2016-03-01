@@ -26,6 +26,10 @@ fields:
   pagecolor:
     label: Section color for the homepage
     type:  color
+  thumb:
+    label: Thumb
+    type: checkbox
+    text: Do you want to display the thumb image?
   title:
     label: Title
     type:  text

@@ -1,8 +1,8 @@
-Textcolor: #ffffff
+Textcolor: #333333
 
 ----
 
-Pagecolor: #7c9efc
+Pagecolor: #c4d3ff
 
 ----
 

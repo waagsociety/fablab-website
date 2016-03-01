@@ -46,3 +46,7 @@ Layout: two-col
 ----
 
 Videolink: 
+
+----
+
+Thumb: 1

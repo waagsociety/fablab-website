@@ -2,11 +2,11 @@ Heroimage: pme_1.jpg
 
 ----
 
-Textcolor: #000000
+Textcolor: #333333
 
 ----
 
-Pagecolor: #f5d418
+Pagecolor: #faf0ad
 
 ----
 

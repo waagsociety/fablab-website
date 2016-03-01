@@ -17,6 +17,10 @@ fields:
   pagecolor:
     label: Section color for the homepage
     type:  color
+  thumb:
+    label: Thumb
+    type: checkbox
+    text: Do you want to display the thumb image?
 
   videolink:
     label: Link to video

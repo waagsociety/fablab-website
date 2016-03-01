@@ -42,8 +42,12 @@ Border:
 
 ----
 
-Textcolor: #ffffff
+Textcolor: #333333
 
 ----
 
-Pagecolor: #59a356
+Pagecolor: #a8e0a6
+
+----
+
+Thumb: 0

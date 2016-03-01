@@ -1,4 +1,4 @@
-<ul class="machine-grid changecolorblack">
+<ul class="machine-grid">
   <?php foreach($pages->find('machines')->children()->visible() as $p): ?>
     <a href="<?php echo $p->url() ?>" class="left machineThumb" style="background-color: <?php echo html($p->pagecolor()) ?>;">
     <li >
