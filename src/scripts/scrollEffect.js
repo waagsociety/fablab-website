@@ -16,19 +16,16 @@ function adjustWindow(){
             forceHeight: false
         });
     } else {
-
-        // BREAK SKROLLER.INIT IF THE SCREEN SIZE IS BELOW 768
-        var s = skrollr.init();
-        s.destroy();
+      // BREAK SKROLLER.INIT IF THE SCREEN SIZE IS BELOW 768
+      var s = skrollr.init();
+      s.destroy();
     }
-	
-	// Check for touch
-   	if(Modernizr.touch) {
 
-		// BREAK SKROLLER.INIT IF THE SCREEN SIZE IS A TOUCH DEVICE
-		var s = skrollr.init();
-		s.destroy();
-   	}
+  function isTouchDevice() { return 'ontouchstart' in window || !!(navigator.msMaxTouchPoints);}
+  if (isTouchDevice()) {
+    var s = skrollr.init();
+    s.destroy();
+  }
 }
 
 function initAdjustWindow() {

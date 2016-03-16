@@ -1,15 +1,4 @@
 @font-face {
-    font-family: 'brandon_textbold';
-    src: url('../fonts/brandontext-bold-webfont.eot');
-    src: url('../fonts/brandontext-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/brandontext-bold-webfont.woff2') format('woff2'),
-         url('../fonts/brandontext-bold-webfont.woff') format('woff'),
-         url('../fonts/brandontext-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
     font-family: 'brandon_textlight';
     src: url('../fonts/brandontext-light-webfont.eot');
     src: url('../fonts/brandontext-light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -32,6 +21,16 @@
 
 }
 
+@font-face {
+  font-family: BalanceWeb-Bold;
+  src: url("../fonts/BalanceWeb-Bold.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: BalanceWeb-Bold;
+  src: url("../fonts/BalanceWeb-Bold.woff") format("woff");
+}
 html
   font-size 100%
 	-webkit-font-smoothing antialiased
@@ -52,7 +51,7 @@ h3, .gamma,
 h4, .delta,
 h5, .epsilon,
 h6, .zeta
-  font-family 'BalanceComp-bold', 'brandon_textbold', sans-serif
+  font-family 'BalanceWeb-Bold', sans-serif
   margin 0
 
 h1, .alpha

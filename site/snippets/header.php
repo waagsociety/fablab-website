@@ -8,7 +8,6 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
   <link href="http://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet" type="text/css">
-
   <?php echo css('assets/css/main.css') ?>
   <?php echo js('assets/js/main.min.js') ?>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
@@ -28,9 +27,6 @@
         data-top="opacity: 1; transform: scale(1);"
         data--250-top="opacity: 0; transform: scale(.5);"
         data-anchor-target="#projectHeader">
-
-
-
       <h1>
         <?php if($page->isHomePage()): ?>
           <div class="waag__icon left">

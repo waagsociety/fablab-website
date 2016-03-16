@@ -16,12 +16,9 @@ gulp.task('css', function () {
 
 gulp.task('js', function() {
   gulp.src([
-    'bower_components/enquire/dist/enquire.js',
-    'src/scripts/modernizr_touch_detect.min.js',
     'src/scripts/slideMenu.js',
     'src/scripts/scrollEffect.js',
     'src/scripts/typingText.js',
-    'src/scripts/slider.js',
     'src/scripts/loadMasonry.js',
     'src/scripts/init.js'
   ])
@@ -32,8 +29,7 @@ gulp.task('js', function() {
 
 gulp.task('headerjs', function() {
   gulp.src([,
-    'bower_components/jquery/dist/jquery.min.js',
-    'bower_components/src/jquery.smoothState.js',
+    'bower_components/enquire/dist/enquire.js',
     'bower_components/fetch/fetch.js',
     'bower_components/es6-promise/promise.min.js',
     'bower_components/masonry/dist/masonry.pkgd.min.js',

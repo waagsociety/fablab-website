@@ -1,6 +1,9 @@
 <?php snippet('header') ?>
 
-  <main class="main home" role="main">
+  <main class="main home" role="main"
+  data-center="transform: perspective( 400px ) rotateX(4deg) translateY(10%);"
+  data-center-bottom="transform: perspective( 400px ) rotateX(0deg) translateY(0%);"
+  data-anchor-target="#projectHeader">
   	<?php foreach($pages->visible() as $section): ?>
     <a class="<?php echo html($section->layout()) ?> left item" href="<?php echo $section->url() ?>" style="color: <?php echo html($section->textcolor()) ?>; background-color: <?php echo html($section->pagecolor()) ?>;">
       <?php if($section->thumb() == '1'): ?>
