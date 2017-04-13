@@ -4,3 +4,5 @@ assets/fonts
 site/config
 *.sublime-project
 *.sublime-workspace
+
+*.zip
